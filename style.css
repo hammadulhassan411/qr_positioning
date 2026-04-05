@@ -1,0 +1,24 @@
+:root {
+  --main-color: #4a90e2;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+button {
+  background-color: var(--main-color);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #357ac9;
+  cursor: pointer;
+  transform: scale(1.05);
+}
